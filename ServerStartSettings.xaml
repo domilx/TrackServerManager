@@ -1,0 +1,76 @@
+﻿<Window x:Class="Minecraft_Server_Wrapper.ServerStartSettings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Minecraft_Server_Wrapper"
+        mc:Ignorable="d"
+        Title="ServerStartSettings" Height="200" Width="400" Foreground="White" WindowStyle="None" AllowsTransparency="True" ResizeMode="NoResize" FontFamily="Bahnschrift Light" FontSize="18" Background="#FF101010" MouseDown="Window_MouseDown">
+    <Window.Resources>
+        <Style TargetType="{x:Type TextBox}">
+            <Style.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="17.5"/>
+                    <Setter Property="Padding" Value="12,7"/>
+                </Style>
+            </Style.Resources>
+        </Style>
+        <Style TargetType="{x:Type CheckBox}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type CheckBox}">
+                        <Grid>
+                            <Label Foreground="White">
+                                <ContentPresenter ContentSource="Content"/>
+                            </Label>
+                            <Rectangle x:Name="ToggleSwitch" Width="60"  Height="30" Fill="#FF202020" RadiusX="15" RadiusY="15" HorizontalAlignment="Right"/>
+                            <Rectangle x:Name="Toggle" Width="22"  Height="22" Fill="DarkRed" RadiusX="11" RadiusY="11" Margin="0,0,34,0" HorizontalAlignment="Right"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="Cursor" Value="Hand"/>
+                            </Trigger>
+                            <EventTrigger RoutedEvent="Checked">
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <ColorAnimation To="Lime" Duration="00:00:00.200" Storyboard.TargetName="Toggle" Storyboard.TargetProperty="(Rectangle.Fill).(SolidColorBrush.Color)"/>
+                                        <DoubleAnimation To="40" BeginTime="00:00:00.000" Duration="00:00:00.100" Storyboard.TargetName="Toggle" Storyboard.TargetProperty="(Rectangle.Width)"/>
+                                        <DoubleAnimation To="22" BeginTime="00:00:00.100" Duration="00:00:00.100" Storyboard.TargetName="Toggle" Storyboard.TargetProperty="(Rectangle.Width)"/>
+                                        <ThicknessAnimation To="0,0,4,0" Duration="00:00:00.200" Storyboard.TargetName="Toggle" Storyboard.TargetProperty="Margin"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+                            <EventTrigger RoutedEvent="Unchecked">
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <ColorAnimation To="DarkRed" Duration="00:00:00.200" Storyboard.TargetName="Toggle" Storyboard.TargetProperty="(Rectangle.Fill).(SolidColorBrush.Color)"/>
+                                        <DoubleAnimation To="40" BeginTime="00:00:00.000" Duration="00:00:00.100" Storyboard.TargetName="Toggle" Storyboard.TargetProperty="(Rectangle.Width)"/>
+                                        <DoubleAnimation To="22" BeginTime="00:00:00.100" Duration="00:00:00.100" Storyboard.TargetName="Toggle" Storyboard.TargetProperty="(Rectangle.Width)"/>
+                                        <ThicknessAnimation To="0,0,34,0" Duration="00:00:00.200" Storyboard.TargetName="Toggle" Storyboard.TargetProperty="Margin"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <DockPanel x:Name="TitleBar" Height="20" VerticalAlignment="Top" HorizontalAlignment="Center" Width="400" Background="#FF323280" LastChildFill="False">
+            <Grid Height="20" Width="400">
+                <Label Content="Server Startup Settings" Height="20" Foreground="White" FontSize="11" MouseDown="Window_MouseDown" Padding="5,5,5,0" Background="Red"/>
+                <Button x:Name="Exit" Content="X" Height="20" Width="20" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontSize="11" Margin="380,0,0,0" Click="Exit_Click"/>
+                <Button x:Name="Minimize" Content="-" Height="20" Width="20" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontSize="11" Margin="360,0,20,0" Click="Minimize_Click"/>
+            </Grid>
+        </DockPanel>
+        <Image x:Name="StartTimeErrorSign" HorizontalAlignment="Left" Height="20" Margin="370,35,0,0" VerticalAlignment="Top" Width="20" Source="Warning Triangle.png" Opacity="0" ToolTip="Date and Time could not be parsed"/>
+        <Image x:Name="StopTimeErrorSign" HorizontalAlignment="Left" Height="20" Margin="370,75,0,0" VerticalAlignment="Top" Width="20" Source="Warning Triangle.png" Opacity="0" ToolTip="Date and Time could not be parsed"/>
+        <Label Content="Start Time" HorizontalAlignment="Left" Height="30" Margin="10,28,0,0" VerticalAlignment="Top" Width="95" Foreground="White"/>
+        <TextBox x:Name="StartTimeDate" HorizontalAlignment="Left" Height="35" Margin="110,25,0,0" TextWrapping="Wrap" Text="00:00:00 Jan 01 2000" VerticalAlignment="Top" Width="280" HorizontalContentAlignment="Right" TextChanged="StartTimeDate_TextChanged"/>
+        <Label Content="Stop Time" HorizontalAlignment="Left" Height="30" Margin="10,68,0,0" VerticalAlignment="Top" Width="95" Foreground="White"/>
+        <TextBox x:Name="StopTimeDate" HorizontalAlignment="Left" Height="35" Margin="110,65,0,0" TextWrapping="Wrap" Text="23:59:59 Jan 01 2000" VerticalAlignment="Top" Width="280" HorizontalContentAlignment="Right" TextChanged="StopTimeDate_TextChanged"/>
+        <CheckBox Content="Enable" HorizontalAlignment="Left" Height="30" Margin="10,105,0,0" VerticalAlignment="Top" Width="380" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked"/>
+        <Label x:Name="InfoLabel" Content="Format - HH:MM:SS MMM DD YYYY" HorizontalAlignment="Left" Height="50" Margin="10,140,0,0" VerticalAlignment="Top" Width="380" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom"/>
+    </Grid>
+</Window>

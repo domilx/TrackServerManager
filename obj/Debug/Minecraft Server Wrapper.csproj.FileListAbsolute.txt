@@ -1,0 +1,57 @@
+C:\Users\Potato PC\source\repos\Minecraft Server Wrapper\Minecraft Server Wrapper\bin\Debug\Minecraft Server Wrapper.exe.config
+C:\Users\Potato PC\source\repos\Minecraft Server Wrapper\Minecraft Server Wrapper\bin\Debug\Minecraft Server Wrapper.exe
+C:\Users\Potato PC\source\repos\Minecraft Server Wrapper\Minecraft Server Wrapper\bin\Debug\Minecraft Server Wrapper.pdb
+C:\Users\Potato PC\source\repos\Minecraft Server Wrapper\Minecraft Server Wrapper\obj\Debug\Minecraft Server Wrapper.csprojAssemblyReference.cache
+C:\Users\Potato PC\source\repos\Minecraft Server Wrapper\Minecraft Server Wrapper\obj\Debug\MainWindow.g.cs
+C:\Users\Potato PC\source\repos\Minecraft Server Wrapper\Minecraft Server Wrapper\obj\Debug\App.g.cs
+C:\Users\Potato PC\source\repos\Minecraft Server Wrapper\Minecraft Server Wrapper\obj\Debug\Minecraft Server Wrapper_MarkupCompile.cache
+C:\Users\Potato PC\source\repos\Minecraft Server Wrapper\Minecraft Server Wrapper\obj\Debug\Minecraft Server Wrapper_MarkupCompile.lref
+C:\Users\Potato PC\source\repos\Minecraft Server Wrapper\Minecraft Server Wrapper\obj\Debug\MainWindow.baml
+C:\Users\Potato PC\source\repos\Minecraft Server Wrapper\Minecraft Server Wrapper\obj\Debug\Minecraft Server Wrapper.g.resources
+C:\Users\Potato PC\source\repos\Minecraft Server Wrapper\Minecraft Server Wrapper\obj\Debug\Minecraft_Server_Wrapper.Properties.Resources.resources
+C:\Users\Potato PC\source\repos\Minecraft Server Wrapper\Minecraft Server Wrapper\obj\Debug\Minecraft Server Wrapper.csproj.GenerateResource.cache
+C:\Users\Potato PC\source\repos\Minecraft Server Wrapper\Minecraft Server Wrapper\obj\Debug\Minecraft Server Wrapper.exe
+C:\Users\Potato PC\source\repos\Minecraft Server Wrapper\Minecraft Server Wrapper\obj\Debug\Minecraft Server Wrapper.pdb
+C:\Users\Potato PC\source\repos\Minecraft Server Wrapper\Minecraft Server Wrapper\bin\Debug\Minecraft Server Wrapper.exe.manifest
+C:\Users\Potato PC\source\repos\Minecraft Server Wrapper\Minecraft Server Wrapper\bin\Debug\Minecraft Server Wrapper.application
+C:\Users\Potato PC\source\repos\Minecraft Server Wrapper\Minecraft Server Wrapper\obj\Debug\Minecraft Server Wrapper.TrustInfo.xml
+C:\Users\Potato PC\source\repos\Minecraft Server Wrapper\Minecraft Server Wrapper\obj\Debug\Minecraft Server Wrapper.exe.manifest
+C:\Users\Potato PC\source\repos\Minecraft Server Wrapper\Minecraft Server Wrapper\obj\Debug\Minecraft Server Wrapper.application
+C:\Users\Potato PC\source\repos\Minecraft Server Wrapper\Minecraft Server Wrapper\obj\Debug\ServerPropertiesManager.g.cs
+C:\Users\Potato PC\source\repos\Minecraft Server Wrapper\Minecraft Server Wrapper\obj\Debug\ServerPropertiesManager.baml
+C:\Users\Potato PC\source\repos\Minecraft Server Wrapper\Minecraft Server Wrapper\obj\Debug\WrapperSettings.g.cs
+C:\Users\Potato PC\source\repos\Minecraft Server Wrapper\Minecraft Server Wrapper\obj\Debug\WrapperSettings.baml
+C:\Users\Potato PC\Documents\Minecraft\Servers\Craftbukkit 1.14.4 Survival\Minecraft Server Wrapper.exe.config
+C:\Users\Potato PC\Documents\Minecraft\Servers\Craftbukkit 1.14.4 Survival\Minecraft Server Wrapper.exe.manifest
+C:\Users\Potato PC\Documents\Minecraft\Servers\Craftbukkit 1.14.4 Survival\Minecraft Server Wrapper.application
+C:\Users\Potato PC\Documents\Minecraft\Servers\Craftbukkit 1.14.4 Survival\Minecraft Server Wrapper.exe
+C:\Users\Potato PC\Documents\Minecraft\Servers\Craftbukkit 1.14.4 Survival\Minecraft Server Wrapper.pdb
+C:\Users\Potato PC\source\repos\Minecraft Server Wrapper\Minecraft Server Wrapper\obj\Debug\ServerStartSettings.g.cs
+C:\Users\Potato PC\source\repos\Minecraft Server Wrapper\Minecraft Server Wrapper\obj\Debug\ServerStartSettings.baml
+C:\Users\Potato PC\source\repos\Minecraft Server Wrapper\Minecraft Server Wrapper\obj\Debug\CreateNewServer.g.cs
+C:\Users\Potato PC\source\repos\Minecraft Server Wrapper\Minecraft Server Wrapper\obj\Debug\CreateNewServer.baml
+C:\Users\domen\OneDrive\Desktop\Minecraft-Server-Wrapper-master\Minecraft Server Wrapper\obj\Debug\Minecraft Server Wrapper.csproj.AssemblyReference.cache
+C:\Users\domen\OneDrive\Desktop\Minecraft-Server-Wrapper-master\Minecraft Server Wrapper\obj\Debug\Minecraft Server Wrapper.csproj.SuggestedBindingRedirects.cache
+C:\Users\domen\OneDrive\Desktop\Minecraft-Server-Wrapper-master\Minecraft Server Wrapper\obj\Debug\MainWindow.g.cs
+C:\Users\domen\OneDrive\Desktop\Minecraft-Server-Wrapper-master\Minecraft Server Wrapper\obj\Debug\ServerStartSettings.g.cs
+C:\Users\domen\OneDrive\Desktop\Minecraft-Server-Wrapper-master\Minecraft Server Wrapper\obj\Debug\WrapperSettings.g.cs
+C:\Users\domen\OneDrive\Desktop\Minecraft-Server-Wrapper-master\Minecraft Server Wrapper\obj\Debug\App.g.cs
+C:\Users\domen\OneDrive\Desktop\Minecraft-Server-Wrapper-master\Minecraft Server Wrapper\obj\Debug\Minecraft Server Wrapper_MarkupCompile.cache
+C:\Users\domen\OneDrive\Desktop\Minecraft-Server-Wrapper-master\Minecraft Server Wrapper\obj\Debug\Minecraft Server Wrapper_MarkupCompile.lref
+C:\Users\domen\OneDrive\Desktop\Minecraft-Server-Wrapper-master\Minecraft Server Wrapper\obj\Debug\MainWindow.baml
+C:\Users\domen\OneDrive\Desktop\Minecraft-Server-Wrapper-master\Minecraft Server Wrapper\obj\Debug\ServerStartSettings.baml
+C:\Users\domen\OneDrive\Desktop\Minecraft-Server-Wrapper-master\Minecraft Server Wrapper\obj\Debug\WrapperSettings.baml
+C:\Users\domen\OneDrive\Desktop\Minecraft-Server-Wrapper-master\Minecraft Server Wrapper\obj\Debug\Minecraft Server Wrapper.g.resources
+C:\Users\domen\OneDrive\Desktop\Minecraft-Server-Wrapper-master\Minecraft Server Wrapper\obj\Debug\Minecraft_Server_Wrapper.Properties.Resources.resources
+C:\Users\domen\OneDrive\Desktop\Minecraft-Server-Wrapper-master\Minecraft Server Wrapper\obj\Debug\Minecraft Server Wrapper.csproj.GenerateResource.cache
+C:\Users\domen\OneDrive\Desktop\Minecraft-Server-Wrapper-master\Minecraft Server Wrapper\obj\Debug\Minecraft Server Wrapper.csproj.CoreCompileInputs.cache
+C:\Users\domen\OneDrive\Desktop\Minecraft-Server-Wrapper-master\Minecraft Server Wrapper\obj\Debug\Minecraft Server Wrapper.TrustInfo.xml
+C:\Users\domen\OneDrive\Desktop\Minecraft-Server-Wrapper-master\Minecraft Server Wrapper\obj\Debug\Minecraft Server Wrapper.exe
+C:\Users\domen\OneDrive\Desktop\Minecraft-Server-Wrapper-master\Minecraft Server Wrapper\obj\Debug\Minecraft Server Wrapper.pdb
+C:\Users\domen\OneDrive\Desktop\Minecraft-Server-Wrapper-master\Minecraft Server Wrapper\bin\Debug\Minecraft Server Wrapper.exe.config
+C:\Users\domen\OneDrive\Desktop\Minecraft-Server-Wrapper-master\Minecraft Server Wrapper\bin\Debug\Minecraft Server Wrapper.exe.manifest
+C:\Users\domen\OneDrive\Desktop\Minecraft-Server-Wrapper-master\Minecraft Server Wrapper\bin\Debug\Minecraft Server Wrapper.application
+C:\Users\domen\OneDrive\Desktop\Minecraft-Server-Wrapper-master\Minecraft Server Wrapper\bin\Debug\Minecraft Server Wrapper.exe
+C:\Users\domen\OneDrive\Desktop\Minecraft-Server-Wrapper-master\Minecraft Server Wrapper\bin\Debug\Minecraft Server Wrapper.pdb
+C:\Users\domen\OneDrive\Desktop\Minecraft-Server-Wrapper-master\Minecraft Server Wrapper\obj\Debug\Minecraft Server Wrapper.exe.manifest
+C:\Users\domen\OneDrive\Desktop\Minecraft-Server-Wrapper-master\Minecraft Server Wrapper\obj\Debug\Minecraft Server Wrapper.application

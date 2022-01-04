@@ -1,0 +1,51 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Minecraft_Server_Wrapper" GeneratedClassName="ServerWrapper">
+  <Profiles />
+  <Settings>
+    <Setting Name="ServerPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">...\server.jar</Value>
+    </Setting>
+    <Setting Name="ServerRAM" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2048</Value>
+    </Setting>
+    <Setting Name="ServerForceOnlineMode" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="RunServerOnStartUp" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="TitleBarColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">50, 50, 128</Value>
+    </Setting>
+    <Setting Name="DefaultOutputColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="WarningOutputColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Yellow</Value>
+    </Setting>
+    <Setting Name="ErrorOutputColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">255, 64, 64</Value>
+    </Setting>
+    <Setting Name="ShowWarningOutput" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ShowErrorOutput" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ForegroundOpacity" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="BackgroundSkin" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PlayerEventOutputColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">150, 190, 255</Value>
+    </Setting>
+    <Setting Name="ServerLoadingDoneColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Lime</Value>
+    </Setting>
+    <Setting Name="Notes" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>
