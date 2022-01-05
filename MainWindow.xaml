@@ -371,10 +371,6 @@
                 </ImageBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="KickAll" Content="Vanilla 1.12.2" HorizontalAlignment="Left" Height="35" Margin="1112,313,0,0" VerticalAlignment="Top" Width="155" BorderBrush="White" Foreground="White" Style="{StaticResource RoundedButton}" Click="QuickCommand" Background="{x:Null}" Grid.ColumnSpan="2"/>
-        <Button x:Name="BanAll" Content="Vanilla 1.8.9" HorizontalAlignment="Left" Height="35" Margin="950,313,0,0" VerticalAlignment="Top" Width="155" BorderBrush="White" Foreground="White" Style="{StaticResource RoundedButton}" Click="QuickCommand" Background="{x:Null}"/>
-        <Button x:Name="opAll" Content="Forge 1.12.2" Height="36" Margin="951,358,64,0" VerticalAlignment="Top" BorderBrush="White" Foreground="White" Style="{StaticResource RoundedButton}" Click="QuickCommand" Background="{x:Null}"/>
-        <Button x:Name="deopAll" Content="Vanilla 1.18" HorizontalAlignment="Left" Height="35" Margin="1111,358,0,0" VerticalAlignment="Top" Width="156" BorderBrush="White" Foreground="White" Style="{StaticResource RoundedButton}" Click="QuickCommand" Background="{x:Null}" Grid.ColumnSpan="2"/>
         <Button x:Name="ClearOutputWindow" Content="Clear Output Window" HorizontalAlignment="Left" Height="35" Margin="951,463,0,0" VerticalAlignment="Top" Width="316" BorderBrush="White" Foreground="White" Style="{StaticResource RoundedButton}" Click="ClearOutputWindow_Click" Background="{x:Null}" Grid.ColumnSpan="2"/>
         <Button x:Name="EditServerProperties" Content="Open In Explorer" HorizontalAlignment="Left" Height="35" Margin="951,513,0,0" VerticalAlignment="Top" Width="316" BorderBrush="White" Foreground="White" Style="{StaticResource RoundedButton}" Click="EditServerProperties_Click" Background="{x:Null}" Grid.ColumnSpan="2"/>
         <Button x:Name="BackupWorld" Content="Backup Server World(s)" HorizontalAlignment="Left" Height="35" Margin="951,560,0,0" VerticalAlignment="Top" Width="316" BorderBrush="White" Foreground="White" Style="{StaticResource RoundedButton}" IsEnabled="False" Click="BackupWorld_Click" Background="{x:Null}" Grid.ColumnSpan="2"/>
@@ -391,6 +387,5 @@
         <ProgressBar x:Name="cpuUsageBar" HorizontalAlignment="Left" Height="11" Margin="997,703,0,0" VerticalAlignment="Top" Width="100"/>
         <Label x:Name="cpuUsageValue" Content="---%" HorizontalAlignment="Left" Margin="1096,694,0,0" VerticalAlignment="Top" Foreground="White" Height="26" FontSize="14" Width="45"/>
         <Label x:Name="ramUsageValue" Content="RAM Usage: ----MB" HorizontalAlignment="Left" Margin="1141,694,0,0" VerticalAlignment="Top" Foreground="White" Height="26" FontSize="14" Grid.ColumnSpan="2"/>
-        <Label Content="Download Servers via the web" HorizontalAlignment="Left" Margin="997,282,0,0" VerticalAlignment="Top" Foreground="White" Height="26" FontSize="14" Grid.ColumnSpan="2" Width="218"/>
     </Grid>
 </Window>

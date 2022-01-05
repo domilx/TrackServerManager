@@ -736,10 +736,10 @@ namespace Minecraft_Server_Wrapper
             ServerFilePath.IsEnabled = false;
             ForceOnlineMode.IsChecked = false;
             ramLimit.IsEnabled = false;
-            KickAll.IsEnabled = true;
-            BanAll.IsEnabled = true;
-            opAll.IsEnabled = true;
-            deopAll.IsEnabled = true;
+            //KickAll.IsEnabled = true;
+            //BanAll.IsEnabled = true;
+            //opAll.IsEnabled = true;
+            //deopAll.IsEnabled = true;
             SendCommand.IsEnabled = true;
 
             StartStopServer.ToolTip = "Shift Click to Force Stop Server";
@@ -760,10 +760,10 @@ namespace Minecraft_Server_Wrapper
             ServerFilePath.IsEnabled = true;
             ForceOnlineMode.IsEnabled = true;
             ramLimit.IsEnabled = true;
-            KickAll.IsEnabled = false;
-            BanAll.IsEnabled = false;
-            opAll.IsEnabled = false;
-            deopAll.IsEnabled = false;
+            //KickAll.IsEnabled = false;
+            //BanAll.IsEnabled = false;
+            //opAll.IsEnabled = false;
+            //deopAll.IsEnabled = false;
             SendCommand.IsEnabled = false;
 
             if (ServerForceClose) { ServerOutputWindow.AppendText("\nServer Force Closed"); }
@@ -944,7 +944,7 @@ namespace Minecraft_Server_Wrapper
 
         private void CommandBox_LostFocus(object sender, RoutedEventArgs e) => CommandHistoryOffset = 0;
 
-        private void QuickCommand(object sender, RoutedEventArgs e)
+       /* private void QuickCommand(object sender, RoutedEventArgs e)
         {
             if (sender == KickAll)
             {
@@ -1024,7 +1024,7 @@ namespace Minecraft_Server_Wrapper
                     System.Windows.Forms.MessageBox.Show("Your jar file is at " + JarPath);
                 }
             }
-        }
+        }*/
 
 
 
